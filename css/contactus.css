@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body,html {
+	font-size: 15px;
+    line-height: 1.4666666667;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 768px) {
+
+    .contacthead {
+        background: #0071bc;
+        height: 65px;
+    }
+    .aboutheadpara {
+        padding: 35px 10px;
+    }
+    .arrow img {
+        height: 30px;
+        margin: 0px 15px;
+    }
+    .arrowdata h3 {
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .aboutheadpara p {
+        font-size: 15px;
+        color: black;
+    }
+    .loginbackground {
+        padding: 50px 0px;
+        background: white;
+    }
+    .logoimg img {
+        margin: 0 auto;
+    }
+    .logindata h4 {
+        text-align: center;
+        font-size: 18px;
+        color: #0071bc;
+        margin-top: 70px; 
+        margin-bottom: 25px;
+    }
+    .loginform input {
+        border-color: #0071bc;
+        height: 50px;
+        margin-bottom: 10px;
+        color: black;
+    }
+    .loginform label {
+        float: right;
+        color: #0071bc;
+        font-weight: 600;
+    }
+    .send {
+        margin-top: 35px;
+        width: 100%;
+    }
+    .loginformclickdata p {
+        text-align: center;
+        margin-top: 8px;
+    }
+    .loginform {
+        margin-top: 30px;
+    }
+    .loginform textarea {
+        border-color: #0071bc;
+        margin-bottom: 10px;
+        color: black;
+    }
+}

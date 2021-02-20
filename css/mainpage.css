@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body,html {
+	font-size: 15px;
+    line-height: 1.4666666667;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 768px) {
+
+    .mainheader {
+        background: #0071bc;
+        padding: 20px 0px;
+    }
+    .mainheaderdata {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }    
+    .headericon img {
+        margin: 0 auto;
+        height: auto;
+        width: auto;
+    }
+    .headericon p {
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 3px;
+        margin-bottom: 0px;
+    }
+    .maindata {
+        padding: 20px 5px;
+        background: white;
+    }
+    .mynumber {
+        background: white;
+        border-color: #0071bc;
+        color: black;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .grayback {
+        background: #ebebeb;
+        padding: 10px 15px;
+    }
+    .grayback p {
+        color: #707070;
+        font-size: 9px;
+        line-height: 10px;
+    }
+    .threeclick {
+        width: 100%;
+    }
+    .smallclick {
+        background: #4f4f4f;
+        border-color: #4f4f4f;
+        color: white;
+        width: 109px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .smallclick:hover {
+        background: #0071bc;
+        border-color: #0071bc;
+    }
+    .setting {
+        background: white;
+        border-color: #0071bc;
+        color: black;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .mynumber:hover {
+        background: #4f4f4f;
+        border-color: #4f4f4f;
+        color: white;
+    }
+    .setting:hover {
+        background: #4f4f4f;
+        border-color: #4f4f4f;
+        color: white;
+    }
+    .days p {
+        background: #0071bc;
+        color: white;
+        margin: 5px 3px;
+        padding: 10px 15px;
+        border-radius: 40px;
+    }
+    .days {
+        display: flex;
+    }
+    .days p:hover {
+        background: #4f4f4f;
+        color: white;
+    }
+    .green {
+        background: #009245;
+        border-color: #009245;
+        color: white;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .green:hover {
+        background: #0071bc;
+        border-color: #0071bc;
+        color: white;
+    }
+    .request {
+        background: #4f4f4f;
+        border-color: #0071bc;
+        color: white;
+        width: 100%;
+        margin-bottom: 8px;
+        margin-top: 5px;
+    }
+    .hour {
+        background: white;
+        border-color: #0071bc;
+        color: black;
+        width: 49%;
+        margin-bottom: 10px;
+    }
+    .manual {
+        background: white;
+        border-color: #0071bc;
+        color: black;
+        width: 49%;
+        margin-bottom: 10px;
+    }
+    .time {
+        background: white;
+        border-color: #0071bc;
+        color: black;
+        width: 100%;
+        margin-bottom: 8px;
+        height: 35px;
+    }
+    .request:hover {
+        background: #4f4f4f;
+        border-color: #4f4f4f;
+        color: white; 
+    }
+    .hour:hover {
+        background: #4f4f4f;
+        border-color: #4f4f4f;
+        color: white;
+    }
+    .manual:hover {
+        background: #4f4f4f;
+        border-color: #4f4f4f;
+        color: white;
+    }
+    .time:hover {
+        background: #4f4f4f;
+        border-color: #4f4f4f;
+        color: white;
+    }
+    span.zone {
+        background: #0071bc;
+        padding: 4px;
+        height: 15px;
+        padding-bottom: 4px;
+        color: white;
+        padding-top: 11px;
+        border-radius: 3px;
+    }
+    .manualy {
+        background: white;
+        border-color: #0071bc;
+        color: black;
+        width: 38%;
+        margin-bottom: 10px;
+        height: 32px;
+        padding-top: 8px;
+    }
+    .barline {
+        display: flex;
+        margin: 0px 18px;
+        margin-top: 0px;
+    }
+    h4.white {
+        background: #ebebeb;
+        padding: 8px 8px;
+        color: black;
+        font-size: 17px;
+    }
+    h4.grayes {
+        background: #4f4f4f;
+        padding: 8px 8px;
+        color: white;
+        font-size: 17px;
+    }
+    h4.blue {
+        background: #0071bc;
+        padding: 8px 8px;
+        color: white;
+        font-size: 17px;
+    }
+    .loop {
+        background: #4f4f4f;
+        border-color: #0071bc;
+        color: white;
+        width: 100%;
+        margin-bottom: 8px;
+        margin-top: 5px;
+    }
+    .loop:hover {
+        background: #4f4f4f;
+        border-color: #4f4f4f;
+        color: white;
+    }
+    .manualyy {
+        background: white;
+        border-color: #0071bc;
+        color: black;
+        width: 41%;
+        margin-bottom: 10px;
+        height: 38px;
+    }
+    .row.looparea {
+        margin-bottom: 10px;
+    }
+    input.loopdata {
+        width: 135px;
+        height: 45px;
+    }
+    span.siggn {
+        color: #0071bc;
+        border: 1px solid;
+        padding: 2px 15px;
+        font-size: 28px;
+        margin: 8px;
+        padding-bottom: 9px;
+    }
+    span.siggn.plus {
+        padding: 1px 13px;
+        padding-bottom: 9px;
+    }
+    input.loopdata {
+        width: 135px;
+        height: 45px;
+        background: white;
+        margin: 4px 0px;
+        border: 1px solid;
+        border-color: #0071bc;
+    }
+    span.siggn.plus:hover {
+        background: #0071bc;
+        color: white;
+    }
+    span.siggn:hover {
+        background: #0071bc;
+        color: white;    
+    }
+    input.loopdataa {
+        width: 82%;
+        height: 45px;
+        background: white;
+        margin: 4px 0px;
+        border: 1px solid;
+        border-color: #0071bc;
+    }
+    input.loopdatafk {
+        width: 82%;
+        height: 45px;
+        background: white;
+        margin: 4px 0px;
+        border: 1px solid;
+        border-color: #0071bc;
+    }
+    input.loopdatafk {
+        width: 82%;
+        height: 45px;
+        background: #4f4f4f;
+        margin: 4px 0px;
+        border: 1px solid;
+        border-color: #ffffff;
+        color: white;
+    }
+    span.on {
+        color: #ffffff;
+        border: 1px solid;
+        padding: 2px 5px;
+        font-size: 23px;
+        margin: 0px;
+        padding-bottom: 9px;
+        background: #009245;
+        padding-top: 4px;
+    }
+    input.loopdatafk {
+        width: 84%;
+        height: 45px;
+        background: #4f4f4f;
+        margin: 4px 0px;
+        border: 1px solid;
+        border-color: #ffffff;
+        color: white;
+    }
+    .sliderdata {
+        background: #ebebeb;
+        margin-top: 9px;
+        margin-bottom: 9px;
+        padding: 11px 10px;
+    }
+    .sliderdata p {
+        color: black;
+        line-height: 15px;
+    }
+    span.textblue {
+        color: #0071bc;
+    }
+    .max {
+        color: black;
+        margin-bottom: 10px;
+        width: 160px;
+        height: 40px;
+        background: white;
+        margin: 4px 0px;
+        border: 1px solid;
+        border-color: #0071bc;
+    }
+    .high {
+        background: white;
+        border-color: #0071bc;
+        color: black;
+        width: 36%;
+        margin-bottom: 10px;
+    }
+    span.zonee {
+        background: #0071bc;
+        padding: 1px;
+        height: 15px;
+        padding-bottom: 4px;
+        color: white;
+        padding-top: 11px;
+        border-radius: 3px;
+    }
+    .highy {
+        background: white;
+        border-color: #0071bc;
+        color: black;
+        width: 55%;
+        margin-bottom: 10px;
+    }
+    span.zonei {
+        background: #0071bc;
+        padding: 1px;
+        height: 15px;
+        padding-bottom: 5px;
+        color: white;
+        padding-top: 11px;
+        border-radius: 3px;
+        font-size: 13px;
+    }
+    span.zoney {
+        background: #0071bc;
+        padding: 7px;
+        height: 15px;
+        padding-bottom: 4px;
+        color: white;
+        padding-top: 11px;
+        border-radius: 3px;
+        margin: 1px -5px;
+    }
+    .highiy {
+        background: white;
+        border-color: #0071bc;
+        color: black;
+        width: 53%;
+        margin-bottom: 10px;
+    }
+    input.hours {
+        background: white;
+        border-color: #0071bc;
+        color: black;
+        width: 49%;
+        margin-bottom: 10px;
+        padding-top: 7px;
+    }
+    .manuale {
+        background: white;
+        border-color: #0071bc;
+        color: black;
+        width: 38%;
+        margin-bottom: 10px;
+        height: 38px;
+    }
+    span.zony {
+        background: #0071bc;
+        padding: 4px;
+        height: 15px;
+        padding-bottom: 9px;
+        color: white;
+        padding-top: 11px;
+        border-radius: 3px;
+    }
+
+}
