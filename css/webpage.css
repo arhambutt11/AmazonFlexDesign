@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body,html {
+	font-size: 15px;
+    line-height: 1.4666666667;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4{
+	font-family: 'Montserrat', sans-serif;
+}
+.logoArea img {
+    margin: 0 auto;
+    margin-top: 22px;
+}
+.threecol {
+    background: #01054b;
+    padding: 20px 10px;
+}
+.nav-collapse.collapse {
+    float: right;
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+    margin: 20px 40px;
+}
+span.headpad {
+    padding: 0px 10px;
+    color: white;
+}
+ul.nav.navbar-nav span {
+    color: white !important;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none !important;
+    background-color: #00000078 !important;
+}
+.headerback {
+    background: black;
+}
+.mainbanner {
+    background: #0071bc;
+    padding: 50px 10px;
+}
+.mainbannerimg img {
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+}
+/* .mainbannerdata img {
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+} */
+.mainbannerdata h2 {
+    color: white;
+    font-size: 25px;
+    border-bottom: 2px solid;
+    width: fit-content;
+    margin-top: 25px;
+}
+.mainbannerdata p {
+    color: white;
+    font-size: 19px;
+    font-weight: 200;
+    margin-top: 18px;
+}
+.threebox {
+    padding: 50px 10px;
+    background: #f2f2f2;
+}
+.threeboxdata h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    color: #636363;
+    margin-bottom: 30px;
+}
+span.blue {
+    color: #0071bc;
+    font-weight: 500;
+}
+.bluebox img {
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.bluebox h4 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: #000000;
+}
+.featurearea {
+    background: #c7eafb;
+    padding: 50px 10px;
+}
+.featureareadata h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    color: #0071bd;
+    margin-bottom: 30px;
+}
+.featureareabox {
+    border: 1px solid;
+    border-color: #0071bc;    
+    padding: 15px 25px;
+    margin-bottom: 15px;
+}
+.featureareaboximg img {
+    margin: 0 auto;
+}
+.featureareaboxdata h4 {
+    text-align: center;
+    font-size: 19px;
+    color: black;
+}
+.featureareaboxdata p {
+    text-align: center;
+    font-size: 15px;
+    padding: 2px 6px;
+}
+.bigpicture img {
+    height: 100%;
+}
+.featureareabox:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 75%);
+    background: #ffffff;
+}
+.dollardatra h2 {
+    color: #0071bc;
+    font-size: 150px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.dollardatra h3 {
+    color: #0071bc;
+    font-size: 45px;
+}
+.dollardatra h4 {
+    color: #636363;
+    font-size: 47px;
+    font-weight: 400;
+}
+.dollarimg img {
+    margin: 0 auto;
+}
+.subscriptionarea {
+    background: white;
+    padding: 50px 10px;
+}
+.contactarea {
+    background: #c7eafb;
+    padding: 50px 10px;
+}
+.contactusdata h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    color: #0071bd;
+}
+.contactusdata p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: #383838;
+    padding: 0px 85px;
+    margin-bottom: 30px;
+}
+.farmform input {
+    background: white;
+    height: 45px;
+    border: none;
+    color: black;
+}
+.farmform textarea {
+    background: white;   
+    border: none;
+    color: black;
+}
+.row.formarea {
+    margin: 0 auto;
+    width: 80%;
+}
+.formclick {
+    text-align: center;
+    margin-top: 35px;
+}
+.send {
+    font-size: 20px;
+    background: #0071bc;
+    border-color: #0071bc;
+    color: white;
+}
+.send:hover {
+    background: #666666;
+    border-color: #666666;
+    color: white;
+}
+.bluebackarea {
+    background: #0071bc;
+    padding: 20px 10px;
+}
+.bluebackareadata p {
+    color: white;
+    text-align: left;
+    font-size: 19px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+@media only screen and (max-width : 768px) {
+    button#mnav-button {
+        color: white;
+        margin-top: -53px;
+        padding-bottom: 20px;
+    }
+    .logoArea img {
+        margin: 0 auto;
+        margin-top: 25px;
+        float: left;
+    }
+    .mainbannerimg img {
+        margin-top: 30px;
+    }
+    .bluebox h4 {
+        margin-bottom: 33px;
+        margin-top: 20px;
+    }
+    .dollardatra {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .contactusdata p {
+        padding: 0px 0px;
+    }
+    .row.formarea {
+        width: 100%;
+    }
+    .bluebackareadata p {
+        text-align: center;
+        margin-bottom: -20px;
+    }
+
+
+}
